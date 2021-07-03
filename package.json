@@ -1,6 +1,6 @@
 {
-  "name": "@bcgov/carbone-render",
-  "version": "2.2.0",
+  "name": "@enfexia/carbone-render",
+  "version": "0.0.1",
   "description": "Async wrapper around Carbone render",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,8 @@
   },
   "homepage": "https://bcgov.github.io/common-services-team-library/",
   "contributors": [
-    {
-      "name": "Jason Sherman",
-      "email": "jsherman@parcsystems.ca"
-    },
-    {
-      "name": "Jeremy Ho",
-      "email": "jujaga@gmail.com"
-    }
+    "Jason Sherman <jsherman@parcsystems.ca>",
+    "Jeremy Ho <jujaga@gmail.com>"
   ],
   "keywords": [
     "carbone",
@@ -35,7 +29,7 @@
     "doc-generation"
   ],
   "dependencies": {
-    "@enfexia/carbone": "^0.0.2",
+    "@enfexia/carbone": "latest",
     "fs-extra": "^10.0.0",
     "uuid": "^8.3.2"
   }
