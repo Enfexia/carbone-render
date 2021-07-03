@@ -1,0 +1,42 @@
+{
+  "name": "@bcgov/carbone-render",
+  "version": "2.2.0",
+  "description": "Async wrapper around Carbone render",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcgov/common-services-team-library.git"
+  },
+  "author": "NR Common Service Showcase <NR.CommonServiceShowcase@gov.bc.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bcgov/common-services-team-library/issues"
+  },
+  "homepage": "https://bcgov.github.io/common-services-team-library/",
+  "contributors": [
+    {
+      "name": "Jason Sherman",
+      "email": "jsherman@parcsystems.ca"
+    },
+    {
+      "name": "Jeremy Ho",
+      "email": "jujaga@gmail.com"
+    }
+  ],
+  "keywords": [
+    "carbone",
+    "carbone-render",
+    "template",
+    "render",
+    "docgen",
+    "doc-generation"
+  ],
+  "dependencies": {
+    "@enfexia/carbone": "^0.0.2",
+    "fs-extra": "^10.0.0",
+    "uuid": "^8.3.2"
+  }
+}
